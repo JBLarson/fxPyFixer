@@ -1,0 +1,1 @@
+fixerAPIkey = 'Your API Key'
