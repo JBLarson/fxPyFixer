@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import requests
-import fixerCredz as fxCredz
+import fixerCredentials as fxCredentials
 from time import strftime, strptime
 import datetime
 import json
