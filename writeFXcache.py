@@ -22,8 +22,8 @@ print("\nStarted fx Script on: " + str(justDate) + " at: " + str(justTime) + "\n
 
 fixerUrl = 'http://data.fixer.io/api/'
 
-#fixerUrl2 = str(str(fixerUrl) + 'latest?access_key=' + str(fxCredz.fixerAPIkey))
-#convertUrl = str(str(fixerUrl) + 'convert?access_key=' + str(fxCredz.fixerAPIkey) + '&from=' + str('USD') + '&to=' + str('EUR') + '&amount=' + str(10))
+#fixerUrl2 = str(str(fixerUrl) + 'latest?access_key=' + str(fxCredentials.fixerAPIkey))
+#convertUrl = str(str(fixerUrl) + 'convert?access_key=' + str(fxCredentials.fixerAPIkey) + '&from=' + str('USD') + '&to=' + str('EUR') + '&amount=' + str(10))
 #fixerUrl2 = str(str(fixerUrl) + str('2021-04-23') + '?access_key=' + str(fxCredz.fixerAPIkey))
 def getFxRate(baseCurrency, jsonOutAddr):
 	baseVar = str("&base=" + str(baseCurrency))
